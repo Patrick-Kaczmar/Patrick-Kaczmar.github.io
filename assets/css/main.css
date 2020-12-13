@@ -1,4 +1,32 @@
+body{
+    background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg);
+}
+
+/* navigation bar background color */
 .myNav{
     background: #6610f2;
-    color: white;
+}
+/* rule set for the links on the navbar */
+.navUniform{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-family: serif;
+}
+/* specified rules for the text displaying my name on the navbar */
+#navName{
+    font-size: 60px;
+    color: rgb(248, 252, 4);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main h1{
+    text-align: center;
+    padding-top: 60px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(4, 243, 211, 0.938);
+}
+
+.container{
+    height: 700px;
 }
