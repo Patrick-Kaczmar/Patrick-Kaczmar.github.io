@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg);
+    background-image: url(https://w.wallhaven.cc/full/42/wallhaven-42pwqm.jpg);
 }
 
 /* navigation bar background color */
@@ -34,8 +34,15 @@ main h1{
 #containerbio{
     width: 50%;
     margin: 0 auto;
+    padding-top: 90px;
 }
 
 #containerbio p{
     color: white;
+}
+
+#containerbio img{
+    float: left;
+    padding-right: 50px;
+    padding-bottom: 80px;
 }
