@@ -46,3 +46,9 @@ main h1{
     padding-right: 50px;
     padding-bottom: 80px;
 }
+
+#containerbio2 img{
+    height: 400px;
+    width: 400px;
+    float: left;
+}
