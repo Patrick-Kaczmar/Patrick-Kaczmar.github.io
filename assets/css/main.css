@@ -1,5 +1,13 @@
 body{
-    background-image: url(https://w.wallhaven.cc/full/42/wallhaven-42pwqm.jpg);
+    background-image: url(https://w.wallhaven.cc/full/yj/wallhaven-yje2pk.jpg);
+}
+
+#body-portfolio{
+    background-image: url(https://w.wallhaven.cc/full/5d/wallhaven-5d5687.png);
+}
+
+#body-contact{
+    background-image: url(https://w.wallhaven.cc/full/1j/wallhaven-1jdl2v.jpg);
 }
 
 /* navigation bar background color */
