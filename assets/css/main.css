@@ -31,24 +31,23 @@ main h1{
     height: 700px;
 }
 
-#containerbio{
-    width: 50%;
+.containerbio{
+    width: 55%;
     margin: 0 auto;
     padding-top: 90px;
 }
 
-#containerbio p{
+.containerbio p{
     color: white;
+    font-size: 25px;
 }
 
-#containerbio img{
+.containerbio img{
     float: left;
     padding-right: 50px;
     padding-bottom: 80px;
-}
-
-#containerbio2 img{
-    height: 400px;
+    height: 550px;
     width: 400px;
     float: left;
 }
+
