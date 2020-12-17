@@ -64,5 +64,14 @@ main h1{
     margin: 30px;
 }
 
+.opacityBox{
+    background-color: black;
+    height: 600px;
+    margin: 10%;
+    opacity: 70%;
+    color: white;
+    font-size: 30px;  
+}
+
 
 
