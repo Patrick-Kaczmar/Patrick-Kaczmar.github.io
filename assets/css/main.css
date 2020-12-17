@@ -13,6 +13,7 @@ body{
 /* navigation bar background color */
 .myNav{
     background: #6610f2;
+    width: 100%;
 }
 /* rule set for the links on the navbar */
 .navUniform{
@@ -26,7 +27,7 @@ body{
     color: rgb(248, 252, 4);
     font-family: 'Times New Roman', Times, serif;
 }
-
+/* positioning and size for each title below the navbar on each page */
 main h1{
     text-align: center;
     padding-top: 60px;
@@ -35,7 +36,7 @@ main h1{
     color: rgba(255, 255, 255, 0.938);
     font-size: 70px;
 }
-
+/* class that represents the area of content inside each carousel slide */
 .containerbio{
     width: 55%;
     margin: 0 auto;
@@ -55,11 +56,13 @@ main h1{
     width: 400px;
     float: left;
 }
-
+/* class that defines the area of each portfolio box */
 .boxFit{
     background-color: white;
-    height: 300px;
-    width: 20%;
+    height: 250px;
+    width: 100%;
     margin: 30px;
 }
+
+
 
