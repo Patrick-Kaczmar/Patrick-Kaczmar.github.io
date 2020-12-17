@@ -33,10 +33,7 @@ main h1{
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(255, 255, 255, 0.938);
-}
-
-.container{
-    height: 700px;
+    font-size: 70px;
 }
 
 .containerbio{
@@ -57,5 +54,12 @@ main h1{
     height: 550px;
     width: 400px;
     float: left;
+}
+
+.boxFit{
+    background-color: white;
+    height: 300px;
+    width: 20%;
+    margin: 30px;
 }
 
