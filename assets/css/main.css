@@ -1,13 +1,16 @@
+/* positioning and size for each title below the navbar on each page */
+main h1{
+    text-align: center;
+    padding-top: 60px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(58, 20, 20, 0.938);
+    font-size: 70px;
+}
+
+/* background image for index.html page */
 body{
     background-image: url(https://w.wallhaven.cc/full/yj/wallhaven-yje2pk.jpg);
-}
-
-#body-portfolio{
-    background-image: url(https://w.wallhaven.cc/full/5d/wallhaven-5d5687.png);
-}
-
-#body-contact{
-    background-image: url(https://w.wallhaven.cc/full/1j/wallhaven-1jdl2v.jpg);
 }
 
 /* navigation bar background color */
@@ -21,21 +24,7 @@ body{
     color: rgb(255, 255, 255);
     font-family: serif;
 }
-/* specified rules for the text displaying my name on the navbar */
-#navName{
-    font-size: 60px;
-    color: rgb(248, 252, 4);
-    font-family: 'Times New Roman', Times, serif;
-}
-/* positioning and size for each title below the navbar on each page */
-main h1{
-    text-align: center;
-    padding-top: 60px;
-    font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgba(58, 20, 20, 0.938);
-    font-size: 70px;
-}
+
 /* class that represents the area of content inside each carousel slide */
 .containerbio{
     width: 55%;
@@ -63,7 +52,7 @@ main h1{
     width: 100%;
     margin: 30px;
 }
-
+/* sets the opacity, color and size of the box containing the form aswell as the text inside */
 .opacityBox{
     background-color: black;
     height: 600px;
@@ -72,11 +61,11 @@ main h1{
     color: rgb(255, 255, 255);
     font-size: 30px;  
 }
-
+/* positioning of the submit button on the form */
 #submit{
     margin-left: 45%;
 }
-
+/* sets the background images for portfolio boxes 1 - 4 */
 #port1{
     background-image: url(https://pixelmechanics.com.sg/wp-content/uploads/2019/06/html5-logo-for-web-development.png);
     background-size: cover;
@@ -96,4 +85,20 @@ main h1{
     background-image: url(https://logodix.com/logo/374976.jpg);
     background-size: cover;
     background-position: center;
+}
+
+/* background image for portfolio.html page */
+#body-portfolio{
+    background-image: url(https://w.wallhaven.cc/full/5d/wallhaven-5d5687.png);
+}
+/* background image for contact.html page */
+#body-contact{
+    background-image: url(https://w.wallhaven.cc/full/1j/wallhaven-1jdl2v.jpg);
+}
+
+/* specified rules for the text displaying my name on the navbar */
+#navName{
+    font-size: 60px;
+    color: rgb(248, 252, 4);
+    font-family: 'Times New Roman', Times, serif;
 }
