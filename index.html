@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Home</title>
+    <!-- css style sheet from bootstrap website -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <!-- javascript bundle from bootstrap website -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
+        <!-- my css style sheet  -->
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
@@ -24,7 +27,7 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <nav class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item ms-5">
                             <a class="nav-link active" aria-current="page" href="index.html"><span
@@ -36,6 +39,7 @@
                         <li class="nav-item ms-5">
                             <a class="nav-link" href="contact.html"><span class="navUniform">Contact</span></a>
                         </li>
+                        <!-- dropdown menu on navbar -->
                         <li class="nav-item dropdown ms-5">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false"><span class="navUniform">
@@ -52,7 +56,7 @@
                             </ul>
                         </li>
                     </ul>
-                </div>
+                </nav>
             </div>
         </nav>
     </header>
@@ -69,21 +73,21 @@
                 <div class="carousel-inner">
                     <!-- first slide in carousel -->
                     <div class="carousel-item active">
-                        <div id="slide1">
-                            <div class="containerbio">
+                        <section id="slide1">
+                            <figure class="containerbio">
                                 <img src="assets/ya boi (5).jpg" alt="Patrick K.">
                                 <p>I enjoy spending time coding and learning something new everyday. Completing
                                     difficult projects and tasks within this field has given me the motivation and
                                     knowledge to keep progressing my skillset and pushing my satifactory standards
                                     higher.
                                 </p>
-                            </div>
-                        </div>
+                            </figure>
+                        </section>
                     </div>
                     <!-- second slide in carousel -->
                     <div class="carousel-item">
-                        <div id="slide2">
-                            <div class="containerbio">
+                        <section id="slide2">
+                            <figure class="containerbio">
                                 <img src="assets/security.jpg" alt="security">
                                 <p>
                                     I am currently working as a security officer and have over 2 years experience in
@@ -91,23 +95,24 @@
                                     cooperation, a high work ethic standard and the confidence to lead both myself and
                                     others through chalenging problems.
                                 </p>
-                            </div>
-                        </div>
+                            </figure>
+                        </section>
                     </div>
                     <!-- third slide in carousel -->
                     <div class="carousel-item">
-                        <div id="slide3">
-                            <div class="containerbio">
+                        <section id="slide3">
+                            <figure class="containerbio">
                                 <img src="assets/neuralink.jpg" alt="nueralink">
                                 <p>
                                     I aspire to one day be able to work for a company that strives to push the boundaries
                                     of science and engineering. I am hopeful that becoming a full-stack developer will
                                     be the first of many milestones on my journey to fulfill my aspirations.
                                 </p>
-                            </div>
-                        </div>
+                            </figure>
+                        </section>
                     </div>
                 </div>
+                <!-- arrow indicators on the sides of the carousel -->
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
