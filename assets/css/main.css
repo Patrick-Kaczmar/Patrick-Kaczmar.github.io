@@ -12,6 +12,19 @@ main h1{
 body{
     background-image: url(https://w.wallhaven.cc/full/yj/wallhaven-yje2pk.jpg);
 }
+/* controls the settings of the footer on the bottom of each page */
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: rgb(8, 4, 5);
+    text-align: center;
+    background-color: darkgray;
+}
+
+footer p{
+    margin-top: 20px;
+}
 
 /* navigation bar background color */
 .myNav{
