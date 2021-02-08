@@ -8,4 +8,6 @@ This was made using HTML and CSS along with Bootstrap's open-source CSS and java
 
 ## Bootstrap's Carousel framework - https://getbootstrap.com/docs/5.0/components/carousel/
 
+## link to active portfolio website - https://patrick-kaczmar.github.io/
+
 ![website-preview](assets/Portfolio.png)
