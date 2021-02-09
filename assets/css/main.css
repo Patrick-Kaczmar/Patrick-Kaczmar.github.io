@@ -74,6 +74,10 @@ footer p{
     color: rgb(255, 255, 255);
     font-size: 30px;  
 }
+
+.inLine {
+    display: inline-block;
+}
 /* positioning of the submit button on the form */
 #submit{
     margin-left: 45%;
@@ -114,4 +118,8 @@ footer p{
     font-size: 60px;
     color: rgb(248, 252, 4);
     font-family: 'Times New Roman', Times, serif;
+}
+
+#copyRight {
+    margin: 0 20%;
 }
