@@ -61,7 +61,7 @@ footer p{
 /* class that defines the area of each portfolio box */
 .boxFit{
     background-color: white;
-    height: 250px;
+    height: 330px;
     width: 100%;
     margin: 30px;
 }
@@ -78,30 +78,29 @@ footer p{
 .inLine {
     display: inline-block;
 }
+
+.previewImg {
+    width: 80%;
+}
 /* positioning of the submit button on the form */
 #submit{
     margin-left: 45%;
 }
 /* sets the background images for portfolio boxes 1 - 4 */
 #port1{
-    background-image: url(https://pixelmechanics.com.sg/wp-content/uploads/2019/06/html5-logo-for-web-development.png);
-    background-size: cover;
+    text-align: center;
 }
 
 #port2{
-    background-image: url(https://pixelmechanics.com.sg/wp-content/uploads/2019/04/css.jpg);
-    background-size: cover;
+    text-align: center;
 }
 
 #port3{
-    background-image: url(https://obscureproblemsandgotchas.com/wp-content/uploads/2018/06/bootstrap-stack-e1530246058846.png);
-    background-size: cover;
+    text-align: center;
 }
 
 #port4{
-    background-image: url(https://logodix.com/logo/374976.jpg);
-    background-size: cover;
-    background-position: center;
+    text-align: center;
 }
 
 /* background image for portfolio.html page */
