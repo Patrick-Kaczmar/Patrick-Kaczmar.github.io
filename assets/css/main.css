@@ -60,7 +60,7 @@ footer p{
 }
 /* class that defines the area of each portfolio box */
 .boxFit{
-    background-color: white;
+    background-color: rgb(230, 230, 230);
     height: 330px;
     width: 100%;
     margin: 30px;
