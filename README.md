@@ -10,4 +10,10 @@ This was made using HTML and CSS along with Bootstrap's open-source CSS and java
 
 ## link to active portfolio website - https://patrick-kaczmar.github.io/
 
+### Usage: Click on the options in the navigation bar at the top of the page to jump to different pages.
+
 ![website-preview](assets/Portfolio.png)
+
+## License 
+
+This application has no license 
