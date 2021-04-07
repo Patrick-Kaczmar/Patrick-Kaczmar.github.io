@@ -10,7 +10,7 @@ main h1{
 
 /* background image for index.html page */
 body{
-    background-image: url(https://w.wallhaven.cc/full/yj/wallhaven-yje2pk.jpg);
+    background-image: url("../leaf.jpg");
 }
 /* controls the settings of the footer on the bottom of each page */
 footer{
@@ -19,7 +19,7 @@ footer{
     width: 100%;
     color: rgb(8, 4, 5);
     text-align: center;
-    background-color: darkgray;
+    background-color: rgb(156, 156, 190);
 }
 
 footer p{
@@ -105,11 +105,11 @@ footer p{
 
 /* background image for portfolio.html page */
 #body-portfolio{
-    background-image: url(https://w.wallhaven.cc/full/5d/wallhaven-5d5687.png);
+    background-image: url("../red-flowers.png");
 }
 /* background image for contact.html page */
 #body-contact{
-    background-image: url(https://w.wallhaven.cc/full/1j/wallhaven-1jdl2v.jpg);
+    background-image: url("../forest.jpg");
 }
 
 /* specified rules for the text displaying my name on the navbar */
